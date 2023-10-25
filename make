@@ -97,7 +97,7 @@ specific_tags="${default_tags}"
 # Set the list of kernels used by default
 rk3588_kernel=("5.10.1")
 h6_kernel=("6.5.1")
-stable_kernel=("6.1.1" "5.15.1")
+stable_kernel=("6.1.1" "5.15.105")
 flippy_kernel=(${stable_kernel[*]})
 dev_kernel=(${stable_kernel[*]})
 beta_kernel=(${stable_kernel[*]})
