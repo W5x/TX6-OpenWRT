@@ -6,7 +6,7 @@
 #                https://downloads.immortalwrt.org/releases
 #=====================================================================================
 
-name: TX6-K6.1.60
+name: TX6-K6.1.50
 
 on:
   repository_dispatch:
@@ -143,7 +143,7 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "6.1.60"
+        default: "6.1.50"
         type: choice
         options:
           - 5.4.1_5.10.1
@@ -152,7 +152,7 @@ on:
           - 5.10.1
           - 5.15.105
           - 6.1.1
-          - 6.1.60
+          - 6.1.50
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
